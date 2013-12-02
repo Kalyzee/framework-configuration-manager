@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+
+
+	<component name="kalyzee/testing" type="com.kalyzee.framework.configuration.TestingWithRef">
+		<property name="string" value="Salut" />
+	</component>
+	
+	<component name="kalyzee/testingWithRef" type="com.kalyzee.framework.configuration.TestingWithRefAndPrimitivesTypes">
+		<property name="string" value="Salut" />
+		<property name="bool" value="true" />
+		<property name="integer" value="2" />
+		<property name="testing" ref="kalyzee/testing" />
+	</component> 
+
+</configuration>

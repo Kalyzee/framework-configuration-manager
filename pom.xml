@@ -9,11 +9,12 @@
 	<repositories>
 		<repository>
 			<id>kalyzee-repository-snaptshots</id>
-			<url>https://raw.github.com/Kalyzee/mvnrepo/master/snapshots</url>
+			<url>http://developers.kalyzee.com/mvn-repos/snapshots/</url>
 		</repository>
 		<repository>
 			<id>kalyzee-repository-releases</id>
-			<url>https://raw.github.com/Kalyzee/mvnrepo/master/releases</url>
+			<url>http://developers.kalyzee.com/mvn-repos/releases/</url>
+
 		</repository>		
 	</repositories>
 	<build>
